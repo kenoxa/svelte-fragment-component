@@ -1,0 +1,59 @@
+{
+  "name": "svelte-fragment-component",
+  "version": "1.0.0",
+  "description": "fragment component for svelte",
+  "source": "src/fragment.svelte",
+  "main": "./dist/cjs/fragment.js",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": "./dist/esm/fragment.js",
+      "require": "./dist/cjs/fragment.js",
+      "umd": "./dist/umd/fragment.js"
+    },
+    "./src/fragment.svelte": {
+      "default": "./src/fragment.svelte"
+    }
+  },
+  "module": "./dist/esm/fragment.js",
+  "unpkg": "./dist/umd/fragment.js",
+  "svelte": "src/fragment.svelte",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "src/fragment.svelte"
+  ],
+  "scripts": {
+    "build": "rollup -c && echo '{\"type\":\"module\"}' > dist/esm/package.json"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "svelte": "3.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sastan/svelte-fragment-component.git"
+  },
+  "keywords": [
+    "svelte",
+    "jsx"
+  ],
+  "author": "Sascha Tandel <s.tandel@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sastan/svelte-fragment-component/issues"
+  },
+  "homepage": "https://github.com/sastan/svelte-fragment-component#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "prettier": "^2.0.5",
+    "rollup": "^2.17.1",
+    "rollup-plugin-node-externals": "^2.2.0",
+    "rollup-plugin-svelte": "^5.2.3",
+    "rollup-plugin-terser": "^6.1.0",
+    "svelte": "^3.22.3"
+  }
+}
