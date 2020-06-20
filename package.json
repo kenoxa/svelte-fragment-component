@@ -24,7 +24,10 @@
     "src/fragment.svelte"
   ],
   "scripts": {
-    "build": "rollup -c && echo '{\"type\":\"module\"}' > dist/esm/package.json"
+    "build": "rollup -c && echo '{\"type\":\"module\"}' > dist/esm/package.json",
+    "test": "jest",
+    "test:watch": "npm test -- --watch",
+    "test:coverage": "npm test -- --coverage"
   },
   "engines": {
     "node": ">=10"
@@ -47,13 +50,18 @@
   },
   "homepage": "https://github.com/sastan/svelte-fragment-component#readme",
   "devDependencies": {
+    "@jest/globals": "^26.0.1",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
+    "@testing-library/jest-dom": "^5.7.0",
+    "@testing-library/svelte": "^3.0.0",
+    "jest": "^26.0.1",
     "prettier": "^2.0.5",
     "rollup": "^2.17.1",
     "rollup-plugin-node-externals": "^2.2.0",
     "rollup-plugin-svelte": "^5.2.3",
     "rollup-plugin-terser": "^6.1.0",
-    "svelte": "^3.22.3"
+    "svelte": "^3.22.3",
+    "svelte-jester": "^1.0.6"
   }
 }

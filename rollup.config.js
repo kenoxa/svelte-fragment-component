@@ -37,7 +37,7 @@ export default [
     input: pkg.source,
     output: {
       format: 'umd',
-      name: 'svelteJsx',
+      name: 'SvelteFragment',
       file: pkg.unpkg,
       sourcemap: true,
     },
