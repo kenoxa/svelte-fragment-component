@@ -4,7 +4,7 @@
 
 _This is most likely only useful for libraries like [svelte-jsx](https://www.npmjs.com/package/svelte-jsx) or [svelte-htm](https://www.npmjs.com/package/svelte-htm)._
 
-[![GitHub license](https://img.shields.io/github/license/sastan/svelte-fragment-component)](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE) [![NPM version](https://img.shields.io/npm/v/svelte-fragment-component.svg?style=flat)](https://www.npmjs.com/package/svelte-fragment-component) [![NPM downloads](https://img.shields.io/npm/dm/svelte-fragment-component.svg?style=flat)](https://www.npmjs.com/package/svelte-fragment-component)
+![Node.js CI](https://github.com/sastan/svelte-fragment-component/workflows/Node.js%20CI/badge.svg) [![GitHub license](https://img.shields.io/github/license/sastan/svelte-fragment-component)](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE) [![NPM version](https://img.shields.io/npm/v/svelte-fragment-component.svg?style=flat)](https://www.npmjs.com/package/svelte-fragment-component) [![NPM downloads](https://img.shields.io/npm/dm/svelte-fragment-component.svg?style=flat)](https://www.npmjs.com/package/svelte-fragment-component)
 
 ## Installation
 
