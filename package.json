@@ -54,7 +54,6 @@
   },
   "homepage": "https://github.com/sastan/svelte-fragment-component#readme",
   "devDependencies": {
-    "@jest/globals": "^26.0.1",
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
     "@testing-library/jest-dom": "^5.7.0",

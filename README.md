@@ -52,6 +52,69 @@ And then grab it off the global like so:
 ```js
 const Fragment = svelteFragment
 ```
+
+## Usage
+
+> The examples below are using [svelte-jsx](https://www.npmjs.com/package/svelte-jsx) for the jsx syntax support.
+
+```js
+import Fragment from 'svelte-fragment-component'
+
+const Lifecycle = (
+  <Fragment
+    onCreate={() => {}}
+    onMount={() => {}}
+    beforeUpdate={() => {}}
+    afterUpdate={() => {}}
+    onDestroy={() => {}}
+  >
+    some content
+  </Fragment>
+)
+```
+
+This allows to simplify testing of [context API](https://svelte.dev/docs#setContext):
+
+```js
+import Fragment from 'svelte-fragment-component'
+import { setContext } from 'svelte'
+
+const Lifecycle = (
+  <Fragment
+    onCreate={() => {
+      setContext('some context key', theValue)
+    }}
+  >
+    children can now access this context value
+  </Fragment>
+)
+
+// or using the context property
+const Lifecycle = (
+  <Fragment context={{ 'some context key': theValue }}>
+    children can now access this context value
+  </Fragment>
+)
+```
+
+## API
+
+The component renders only the default slot children.
+
+### Properties
+
+> All properties are optional.
+
+- `context`: an key-value object where each pair is passed to [setContext](https://svelte.dev/docs#setContext)
+
+Except for `onCreate` these functions are passed to their corresponding svelte lifecycle method and have the same call signature `({ props }): void` where `props` are the `$$restProps`:
+
+- `onCreate`: called during component initialization
+- [onMount](https://svelte.dev/docs#onMount)
+- [beforeUpdate](https://svelte.dev/docs#beforeUpdate)
+- [afterUpdate](https://svelte.dev/docs#afterUpdate)
+- [onDestroy](https://svelte.dev/docs#onDestroy)
+
 ## Support
 
 This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/sastan/svelte-fragment-component). Feel free to [open an issue](https://github.com/sastan/svelte-fragment-component/issues) if you have any idea, question, or you've found a bug.
