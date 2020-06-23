@@ -7,9 +7,9 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "import": "./dist/esm/fragment.js",
       "require": "./dist/cjs/fragment.js",
-      "umd": "./dist/umd/fragment.js"
+      "umd": "./dist/umd/fragment.js",
+      "default": "./dist/esm/fragment.js"
     },
     "./src/fragment.svelte": {
       "default": "./src/fragment.svelte"
@@ -17,7 +17,7 @@
   },
   "module": "./dist/esm/fragment.js",
   "unpkg": "./dist/umd/fragment.js",
-  "svelte": "src/fragment.svelte",
+  "svelte": "./src/fragment.svelte",
   "sideEffects": false,
   "files": [
     "dist",
