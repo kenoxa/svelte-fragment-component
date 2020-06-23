@@ -1,6 +1,6 @@
 # svelte-fragment-component
 
-> A svelte component that renders its children. Nothing more.
+> A svelte component that renders its children with lifecycle hooks.
 
 [![License](https://badgen.net/npm/license/svelte-fragment-component)](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE)
 [![Latest Release](https://badgen.net/npm/v/svelte-fragment-component)](https://www.npmjs.com/package/svelte-fragment-component)
@@ -45,12 +45,17 @@ Or use script tags and globals ([UNPKG](https://unpkg.com/svelte-fragment-compon
 
 <!-- jsDelivr -->
 <script src="https://cdn.jsdelivr.net/npm/svelte-fragment-component"></script>
+
+<script>
+  <!-- And then grab it off the global like so: -->
+  const Fragment = svelteFragment
+</script>
 ```
 
-And then grab it off the global like so:
+Hotlinking from unpkg: _(no build tool needed!)_
 
 ```js
-const Fragment = svelteFragment
+import Fragment from 'https://unpkg.com/svelte-fragment-component?module'
 ```
 
 ## Usage
@@ -115,6 +120,12 @@ Except for `onCreate` these functions are passed to their corresponding svelte l
 - [afterUpdate](https://svelte.dev/docs#afterUpdate)
 - [onDestroy](https://svelte.dev/docs#onDestroy)
 
+## Related Projects
+
+- [svelte-jsx] - write svelte components using [jsx]
+- [svelte-htm] - [**H**yperscript **T**agged **M**arkup](https://www.npmjs.com/package/htm) for svelte; a [jsx]-like [syntax](https://www.npmjs.com/package/htm#syntax-like-jsx-but-also-lit) using [Tagged Templates]
+- [@testing-library/svelte](https://testing-library.com/docs/svelte-testing-library/intro) - helps to test UI components in a user-centric way
+
 ## Support
 
 This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/sastan/svelte-fragment-component). Feel free to [open an issue](https://github.com/sastan/svelte-fragment-component/issues) if you have any idea, question, or you've found a bug.
@@ -140,3 +151,9 @@ We are following the [Conventional Commits](https://www.conventionalcommits.org)
 ## License
 
 `svelte-fragment-component` is open source software [licensed as MIT](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE).
+
+[tagged templates]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates
+[jsx]: https://reactjs.org/docs/introducing-jsx.html
+[svelte-jsx]: https://www.npmjs.com/package/svelte-jsx
+[svelte-hyperscript]: https://www.npmjs.com/package/svelte-hyperscript
+[svelte-htm]: https://www.npmjs.com/package/svelte-htm
