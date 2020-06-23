@@ -1,13 +1,13 @@
 # svelte-fragment-component
 
-> A svelte component that renders its children with lifecycle hooks.
+> A [svelte](https:/svelte.dev) component that renders its children with lifecycle hooks.
 
-[![License](https://badgen.net/npm/license/svelte-fragment-component)](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE)
+[![License](https://badgen.net/npm/license/svelte-fragment-component)](https://github.com/kenoxa/svelte-fragment-component/blob/main/LICENSE)
 [![Latest Release](https://badgen.net/npm/v/svelte-fragment-component)](https://www.npmjs.com/package/svelte-fragment-component)
 [![View changelog](https://badgen.net/badge/%E2%80%8B/Explore%20Changelog/green?icon=awesome)](https://changelogs.xyz/svelte-fragment-component)
 
-[![CI](https://github.com/sastan/svelte-fragment-component/workflows/CI/badge.svg)](https://github.com/sastan/svelte-fragment-component/actions?query=branch%3Amain+workflow%3ACI)
-[![Coverage Status](https://badgen.net/coveralls/c/github/sastan/svelte-fragment-component/main)](https://coveralls.io/github/sastan/svelte-fragment-component?branch=main)
+[![CI](https://github.com/kenoxa/svelte-fragment-component/workflows/CI/badge.svg)](https://github.com/kenoxa/svelte-fragment-component/actions?query=branch%3Amain+workflow%3ACI)
+[![Coverage Status](https://badgen.net/coveralls/c/github/kenoxa/svelte-fragment-component/main)](https://coveralls.io/github/kenoxa/svelte-fragment-component?branch=main)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/purple)](http://makeapullrequest.com)
 [![Conventional Commits](https://badgen.net/badge/Conventional%20Commits/1.0.0/cyan)](https://conventionalcommits.org)
 
@@ -128,7 +128,7 @@ Except for `onCreate` these functions are passed to their corresponding svelte l
 
 ## Support
 
-This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/sastan/svelte-fragment-component). Feel free to [open an issue](https://github.com/sastan/svelte-fragment-component/issues) if you have any idea, question, or you've found a bug.
+This project is free and open-source, so if you think this project can help you or anyone else, you may [star it on GitHub](https://github.com/kenoxa/svelte-fragment-component). Feel free to [open an issue](https://github.com/kenoxa/svelte-fragment-component/issues) if you have any idea, question, or you've found a bug.
 
 ## Contribute
 
@@ -150,7 +150,7 @@ We are following the [Conventional Commits](https://www.conventionalcommits.org)
 
 ## License
 
-`svelte-fragment-component` is open source software [licensed as MIT](https://github.com/sastan/svelte-fragment-component/blob/main/LICENSE).
+`svelte-fragment-component` is open source software [licensed as MIT](https://github.com/kenoxa/svelte-fragment-component/blob/main/LICENSE).
 
 [tagged templates]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates
 [jsx]: https://reactjs.org/docs/introducing-jsx.html

@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sastan/svelte-fragment-component.git"
+    "url": "git+https://github.com/kenoxa/svelte-fragment-component.git"
   },
   "keywords": [
     "svelte",
@@ -50,9 +50,9 @@
   "author": "Sascha Tandel <s.tandel@me.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sastan/svelte-fragment-component/issues"
+    "url": "https://github.com/kenoxa/svelte-fragment-component/issues"
   },
-  "homepage": "https://github.com/sastan/svelte-fragment-component#readme",
+  "homepage": "https://github.com/kenoxa/svelte-fragment-component#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
     "@rollup/plugin-node-resolve": "^8.0.1",
