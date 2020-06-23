@@ -47,7 +47,7 @@
     "svelte",
     "jsx"
   ],
-  "author": "Sascha Tandel <s.tandel@me.com>",
+  "author": "Sascha Tandel <s.tandel@kenoxa.de>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kenoxa/svelte-fragment-component/issues"
