@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.2](https://www.github.com/kenoxa/svelte-fragment-component/compare/v1.1.1...v1.1.2) (2020-06-24)
+
+
+### Bug Fixes
+
+* jsdelivr export ([d0744f7](https://www.github.com/kenoxa/svelte-fragment-component/commit/d0744f7356211f61a0b73c56a45f41c2942c03a1))
+
 ### [1.1.1](https://www.github.com/kenoxa/svelte-fragment-component/compare/v1.1.0...v1.1.1) (2020-06-23)
 
 ### Bug Fixes
