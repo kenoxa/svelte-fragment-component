@@ -8,6 +8,7 @@
 
 [![CI](https://github.com/kenoxa/svelte-fragment-component/workflows/CI/badge.svg)](https://github.com/kenoxa/svelte-fragment-component/actions?query=branch%3Amain+workflow%3ACI)
 [![Coverage Status](https://badgen.net/coveralls/c/github/kenoxa/svelte-fragment-component/main)](https://coveralls.io/github/kenoxa/svelte-fragment-component?branch=main)
+[![Dependabot](https://badgen.net//dependabot/kenoxa/svelte-fragment-component?icon=dependabot)](https://github.com/kenoxa/svelte-fragment-component/network/alerts)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/purple)](http://makeapullrequest.com)
 [![Conventional Commits](https://badgen.net/badge/Conventional%20Commits/1.0.0/cyan)](https://conventionalcommits.org)
 
