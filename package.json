@@ -17,6 +17,7 @@
   },
   "module": "./dist/esm/fragment.js",
   "unpkg": "./dist/umd/fragment.js",
+  "jsdelivr": "./dist/umd/fragment.js",
   "svelte": "./src/fragment.svelte",
   "sideEffects": false,
   "files": [
