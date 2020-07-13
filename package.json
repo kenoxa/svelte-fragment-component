@@ -19,10 +19,12 @@
   "unpkg": "./dist/umd/fragment.js",
   "jsdelivr": "./dist/umd/fragment.js",
   "svelte": "./src/fragment.svelte",
+  "types": "./fragment.d.ts",
   "sideEffects": false,
   "files": [
     "dist",
-    "src/fragment.svelte"
+    "src/fragment.svelte",
+    "fragment.d.ts"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
